@@ -1,15 +1,71 @@
-html {
+* {
      margin: 0;
      padding: 0;
 }
 
-main {
+html {
+     font-size: 16px;
+}
+
+body {
+     font-family: "Josefin Sans", sans-serif;
 }
 
 .hero-section {
      display: flex;
 }
 
+.hero-container {
+     background: url("./images/bg-pattern-desktop.svg");
+}
+
 .hero-content {
-     width: 
+     width: 52%;
+     margin: 0 20% 0 20%;
+}
+
+.hero-content h1 {
+     font-size: 3.8rem;
+     font-weight: 600;
+     margin-bottom: 1rem;
+     color: hsl(0, 5%, 29%);
+     letter-spacing: 0.3em;
+}
+
+.hero-content span {
+     font-weight: 300;
+     color: hsl(0, 36%, 70%);
+}
+
+.hero-content p {
+     font-weight: 400;
+     margin-bottom: 2.5rem;
+     color: hsl(0, 36%, 70%);
+     line-height: 1.8em;
+}
+
+.logo {
+     margin: 4rem 0 8rem;
+}
+
+.email-cta {
+     display: flex;
+}
+.email-cta input {
+     width: 100%;
+     padding: 1rem 1.5rem;
+     border: 1px solid hsl(0, 36%, 70%);
+     border-radius: 75px;
+}
+
+::placeholder {
+     color: hsl(0, 36%, 70%);
+}
+
+.email-cta button {
+     margin-left: -10%;
+     padding: 0 2rem;
+     border-radius: 75px;
+     border: 1px solid hsl(0, 36%, 70%);
+     background: hsl(0, 93%, 68%);
 }
